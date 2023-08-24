@@ -1,0 +1,135 @@
+b
+{
+    color: red;
+}
+.about-container
+{
+    display: flex;
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    transition: background-color 0.3s ease;
+}
+.about-container > h1
+{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    color: white;
+} 
+.about-container > p > h2
+{
+    position: relative;
+    top: 120px;
+    left: -500px;
+    color: white;
+    font-size: 30px;
+}
+.about-container > p > h3
+{
+    position: relative;
+    text-align: justify;
+    top: 110px;
+    left: -50px;
+    color: white;
+    width: 1100px;
+    background-color: black;
+}
+.about-container > p > h3 > p 
+{
+    font-size: 30px;
+    position: relative;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .about-container
+    {
+      width: 154%;
+    }
+  }
+  @media (min-width: 1025px) and (max-width: 1059px){
+    .about-container
+      {
+          width: 122%;
+      }
+  }  
+  @media (min-width: 1060px) and (max-width: 1099px){
+    .about-container
+      {
+          width: 150%;
+      }
+  }  
+  @media (min-width: 1100px) and (max-width: 1159px){
+    .about-container
+      {
+          width: 120%;
+      }
+  }  
+  @media (min-width: 1160px) and (max-width: 1199px){
+    .about-container
+    {
+        width: 120%;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1299px) {
+    .about-container
+    {
+      width: 100%;
+    }
+    .about-container > p > h3
+    {
+        width: 100%;
+    }
+  }
+  
+  @media (min-width: 1300px) and (max-width: 1326px) {
+    .about-container
+    {
+      width: 100%;
+    }
+  }
+/*          ..............     */
+  @media (min-width: 359px) and (max-width: 370px) {
+    .about-container
+    {
+      width: 360%;
+    }
+
+    .about-container > p > h3
+    {
+      text-align: justify;
+    } 
+    .about-container > p > h3 > p 
+    {
+      width: 70%;
+      position: relative;
+      left: 120px;
+    }
+  }
+  @media (min-width: 371px) and (max-width: 400px) {
+    .about-container
+    {
+      width: 350%;
+    }
+  }
+  @media (min-width: 400px) and (max-width: 500px) {
+    .about-container
+    {
+      width: 315%;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 600px) {
+    .about-container
+    {
+      width: 240%;
+    }
+  }
